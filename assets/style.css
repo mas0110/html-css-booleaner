@@ -24,3 +24,13 @@ a:hover{
     background-image: url(./img/pattern.png);
     
 }
+main{
+    margin-top: 25px;
+}
+
+p{
+    margin-top: 20px;
+}
+ul{
+    margin:20px;
+}
