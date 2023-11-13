@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -22,6 +22,8 @@ a:hover{
 .pattern{
     background-color:lightskyblue ;
     background-image: url(./img/pattern.png);
+    width:100%;
+    background-image:;
     
 }
 main{
@@ -33,4 +35,31 @@ p{
 }
 ul{
     margin:20px;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+    
+
+    
+    
+
+
+#riga1{
+    background-color: cornflowerblue;
+    color: white;
+}
+.riga{
+    background-color: lightskyblue;
+}
+td{
+    padding: 5px;
+    text-align: left;
+    
+}
+th{
+    text-align: left;
+    
 }
