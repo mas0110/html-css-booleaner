@@ -18,3 +18,9 @@ a:hover{
     background-color: transparent;
     text-decoration: underline;
 }
+
+.pattern{
+    background-color:lightskyblue ;
+    background-image: url(./img/pattern.png);
+    
+}
