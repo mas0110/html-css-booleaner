@@ -1,7 +1,8 @@
 *{
-    margin: 10px;
-    padding: 0;
-    box-sizing: border-box;
+    margin-left:  40px;
+    margin-right: 40px;
+    
+    
 }
 #reference{
     color: grey;
@@ -20,10 +21,10 @@ a:hover{
 }
 
 .pattern{
-    background-color:lightskyblue ;
+    background-color:cornflowerblue ;
     background-image: url(./img/pattern.png);
     width:100%;
-    background-image:;
+    padding-bottom: 12%;
     
 }
 main{
@@ -63,3 +64,32 @@ th{
     text-align: left;
     
 }
+.immagine{
+    box-sizing: border-box;
+}
+
+#monitor{
+    background-image: url(./img/monitor.jpg);
+    margin: 10px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 140%;
+  text-align:left;
+  width: 240px;
+  height: 150px;
+  padding: 10px;
+}
+
+#grafico{
+    background-image: url(./img/graph.jpg);
+    margin: 10px;
+  background-repeat: no-repeat;
+  color:white;
+  font-size: 140%;
+  text-align:left;
+  width: 240px;
+  height: 150px;
+  padding: 10px;
+}
+
+
