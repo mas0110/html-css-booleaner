@@ -1,11 +1,18 @@
 *{
-    margin-left:  40px;
-    margin-right: 40px;
-    
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#reference{
-    color: grey;
+
+header{
+    background-image: url(./img/pattern.png);
+    background-size: contain;
+    background-color:cornflowerblue;
+    padding-top: 30px;
+}
+    
+span{
+    color: skyblue
 }
 
 a:link{
@@ -20,13 +27,6 @@ a:hover{
     text-decoration: underline;
 }
 
-.pattern{
-    background-color:cornflowerblue ;
-    background-image: url(./img/pattern.png);
-    width:100%;
-    padding-bottom: 12%;
-    
-}
 main{
     margin-top: 25px;
 }
@@ -43,11 +43,6 @@ table{
     
 }
     
-
-    
-    
-
-
 #riga1{
     background-color: cornflowerblue;
     color: white;
@@ -64,14 +59,14 @@ th{
     text-align: left;
     
 }
-.immagine{
-    box-sizing: border-box;
+
+footer{
+    margin-top:20px ;
 }
 
-#monitor{
-    background-image: url(./img/monitor.jpg);
+
+.immagini{
     margin: 10px;
-  background-repeat: no-repeat;
   color: white;
   font-size: 140%;
   text-align:left;
@@ -80,16 +75,14 @@ th{
   padding: 10px;
 }
 
-#grafico{
-    background-image: url(./img/graph.jpg);
-    margin: 10px;
-  background-repeat: no-repeat;
-  color:white;
-  font-size: 140%;
-  text-align:left;
-  width: 240px;
-  height: 150px;
-  padding: 10px;
+#monitor{
+    background-image: url(./img/monitor.jpg);
+    background-repeat: no-repeat;
+
 }
+#grafico{
+    background-image:url(./img/graph.jpg);
+    background-repeat: no-repeat;}
+
 
 
